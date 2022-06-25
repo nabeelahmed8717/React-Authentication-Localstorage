@@ -1,0 +1,78 @@
+.LOG_SIG_gripper{
+    margin-top: 10vh;
+}
+.inputs_container{
+    background-color: rgb(34 34 34);
+    width: 20vw;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 25px 55px 40px 55px ;
+    color: #fff;
+    position: relative;
+}
+.inputs_container h2{
+    margin-bottom: 15%;
+}
+.input_group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: auto;
+}
+.input_group label{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.733);
+}
+.input_group input[type = 'text'], input[type = 'password']{
+    width: auto;
+    height: 49px;
+    margin-top: 5px;
+    border-radius: 7px;
+    background-color: #a1a1a11a;
+    border: 1.5px solid transparent;
+    padding: 0px 10px 0px 10px;
+    outline: none;
+    font-size: 15px;
+    color: #fff;
+    transition: 0.4s;
+}
+.input_group input:focus{
+    border: 1.5px solid #ffffff7a;
+}
+.input_group input:hover{
+    border: 1.5px solid #ffffff7a;
+}
+.submitButton{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 7px;
+}
+
+.login__signup_btns{
+ width: fit-content;
+ margin: 0 auto;
+ margin-bottom: 10px;
+}
+.login__signup_btns button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: rgb(0 0 0 / 38%);
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.4s;
+    font-style: italic;
+}
+.err{
+    color: #c0392b;
+    font-size: 13px;
+}
+.activeNavLink button{
+    color: #000;
+}
